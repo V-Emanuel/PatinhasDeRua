@@ -1,7 +1,8 @@
 import { Section1, OngName } from "../components/Home/Section1";
-import { Header } from "../components/Home/Header";
+import { Header, HeaderText } from "../components/Home/Header";
 import { FaPaw } from "react-icons/fa";
-import { faPawIcon } from "../components/Home/Icons";
+import { MdLocationOn } from "react-icons/md";
+import { HeaderIcons } from "../components/Home/Icons";
 
 import ItensSection from "../components/Home/ItensSection";
 export default function Home() {
@@ -9,7 +10,14 @@ export default function Home() {
     <>
       <Section1>
         <Header>
-          <FaPaw style={faPawIcon} />
+          <FaPaw style={HeaderIcons} />
+          <HeaderText>Sobre</HeaderText>
+          <HeaderText>Ações</HeaderText>
+          <HeaderText>Como nos ajudar?</HeaderText>
+          <span>
+            <MdLocationOn style={HeaderIcons} />
+            <HeaderText>Campo Formoso - BA</HeaderText>
+          </span>
         </Header>
         <OngName>
           <h1>Patinhas de Rua</h1>

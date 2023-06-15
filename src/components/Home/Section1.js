@@ -32,20 +32,20 @@ export const OngName = styled.div`
   left: 5%;
   h1,
   h2 {
-    font-style: normal;
     line-height: 18px;
+    font-weight: 400;
     color: #fff;
   }
   h1 {
     font-size: 5.2vw;
     font-family: "Emilys Candy";
-    font-weight: 400;
   }
   h2 {
     margin-top: 50px;
     font-size: 18px;
     font-family: "Roboto";
-    font-weight: 300;
-    width: 630px;
+    line-height: normal;
+    text-align: justify;
+    width: 600px;
   }
 `;

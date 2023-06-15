@@ -1,4 +1,4 @@
-export const faPawIcon = {
+export const HeaderIcons = {
   color: "#fff",
-  fontSize: "45px",
+  fontSize: "40px",
 };
