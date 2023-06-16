@@ -7,11 +7,13 @@ export default function Home() {
     <>
       <Section1>
         <Header>
-          <FaPaw style={HeaderIcons} />
+          <a href="https://www.youtube.com/watch?v=Yla6z8CX7lU&ab_channel=apenasumHeitor">
+            <FaPaw style={HeaderIcons} />
+          </a>
+
           <HeaderText>Sobre</HeaderText>
           <HeaderText>Ações</HeaderText>
           <HeaderText>Como nos ajudar?</HeaderText>
-          <HeaderText>Por que ajudar?</HeaderText>
         </Header>
         <OngName>
           <h1>Patinhas de Rua</h1>

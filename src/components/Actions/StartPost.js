@@ -5,7 +5,7 @@ export const StartPostContent = styled.div`
   height: 100%;
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
-  background-color: #af7436;
+  background-color: #8ca38b;
   padding: 50px;
   box-sizing: border-box;
   display: flex;

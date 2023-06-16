@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Actions from "./pages/Actions";
 import HowToHelp from "./pages/HowToHelp";
+import Footer from "./pages/Footer";
 import { styled } from "styled-components";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Actions />
         <HowToHelp />
+        <Footer/>
       </Body>
     </>
   );
@@ -27,4 +29,5 @@ const Body = styled.body`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 `;

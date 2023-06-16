@@ -9,7 +9,7 @@ export const Header = styled.div`
   align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 0px 35px 0px 20px;
+  padding: 0px 70px 0px 70px;
   background-color: transparent;
 `;
 export const HeaderText = styled.h3`
