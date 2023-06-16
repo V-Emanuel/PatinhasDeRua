@@ -6,28 +6,33 @@ const AboutSection = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   background-color: #000;
   box-sizing: border-box;
-  padding: 50px;
-  p,
-  h1 {
-    line-height: 18px;
-    color: #fff;
-    line-height: normal;
-  }
-  h1{
-    font-family: "Teko";
-    font-weight:300;
-    font-size: 60px;
-  }
-  p{
-    margin-top: 50px;
-    font-size: 24px;
-    font-family: "Roboto";
-    text-align: center;
-    font-weight: 400;
-    width: 800px;
+  span {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p,
+    h1 {
+      line-height: 18px;
+      color: #fff;
+      line-height: normal;
+    }
+    h1 {
+      font-family: "Teko";
+      font-weight: 300;
+      font-size: 60px;
+    }
+    p {
+      margin-top: 50px;
+      font-size: 24px;
+      font-family: "Roboto";
+      text-align: center;
+      font-weight: 400;
+      width: 800px;
+    }
   }
 `;
 

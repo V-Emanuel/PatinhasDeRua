@@ -4,13 +4,13 @@ export const FooterSection = styled.section`
   width: 100vw;
   height: 220px;
   display: flex;
-  justify-content: flex-start;
-  padding-left: 40px;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 50px;
   box-sizing: border-box;
   align-items: center;
   background-color: #f28a49;
   span {
-    width: 780px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -37,5 +37,4 @@ export const FooterSection = styled.section`
 
 export const DogFooter = styled.img`
   width: 370px;
-  margin-right: 400px;
 `;

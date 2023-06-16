@@ -2,16 +2,21 @@ import { styled } from "styled-components";
 
 export const Posts = styled.div`
   width: 100%;
-  height: 65%;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
   .post {
-    width: 320px;
-    height: 460px;
+    width: 450px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin-right: 50px;
+    margin-top: 40px;
     img {
-      width: 100%;
+      width: 80%;
       filter: brightness(130%);
     }
     h4 {

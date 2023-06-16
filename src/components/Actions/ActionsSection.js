@@ -2,15 +2,13 @@ import { styled } from "styled-components";
 
 const ActionsSection = styled.section`
   width: 100%;
-  height: 750px;
+  height: 650px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  position: relative;
+  align-items: center;
+  flex-direction: column;
   background-color: #000;
-  padding-left: 400px;
-  padding-right: 120px;
-  box-sizing: border-box;
+  margin-top: 80px;
   h2 {
     line-height: 18px;
     color: #fff;
@@ -18,13 +16,13 @@ const ActionsSection = styled.section`
     font-family: "Teko";
     font-weight: 300;
     font-size: 60px;
-    margin-top: 40px;
+    margin-bottom: 30px;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  span{
+  span {
     width: 100%;
     height: 100%;
     display: flex;

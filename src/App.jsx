@@ -15,7 +15,7 @@ function App() {
         <About />
         <Actions />
         <HowToHelp />
-        <Footer/>
+        <Footer />
       </Body>
     </>
   );
@@ -30,4 +30,5 @@ const Body = styled.body`
   justify-content: center;
   flex-direction: column;
   position: relative;
+  background-color: #000;
 `;
