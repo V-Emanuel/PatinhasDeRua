@@ -4,7 +4,7 @@ import posts from "../assets/consts/posts";
 
 export default function Actions() {
   return (
-    <ActionsSection>
+    <ActionsSection name="actions">
       <h2>Nossas Atividades</h2>
       <Posts>
         {posts.map((i) => (

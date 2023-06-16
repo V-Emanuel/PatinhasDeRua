@@ -12,7 +12,7 @@ export const Header = styled.div`
   padding: 0px 70px 0px 70px;
   background-color: transparent;
 `;
-export const HeaderText = styled.h3`
+export const HeaderText = styled.a`
   font-style: normal;
   line-height: 20px;
   color: #fff;
@@ -22,6 +22,7 @@ export const HeaderText = styled.h3`
   padding: 4px;
   box-sizing: border-box;
   border-radius: 5px;
+  text-decoration: none;
   &:hover {
     cursor: pointer;
     color: #14100b;

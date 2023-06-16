@@ -3,7 +3,7 @@ import { StartPost, StartPostContent } from "../components/About/StartPost";
 import comeco from "../assets/imgs/PostsImgs/comeco.jpg";
 export default function About() {
   return (
-    <AboutSection>
+    <AboutSection name = "about">
       <StartPostContent>
         <h1>ONDE TUDO COMEÇOU!</h1>
         <StartPost src={comeco} />

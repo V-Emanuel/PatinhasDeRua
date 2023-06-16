@@ -9,7 +9,7 @@ export const FooterSection = styled.section`
   padding-right: 50px;
   box-sizing: border-box;
   align-items: center;
-  background-color: #f28a49;
+  background-color: #d69e60;
   span {
     display: flex;
     align-items: flex-end;

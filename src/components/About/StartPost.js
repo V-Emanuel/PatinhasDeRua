@@ -5,7 +5,7 @@ export const StartPostContent = styled.div`
   width: 550px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: #f28a49;
+  background-color: #d69e60;
   display: flex;
   flex-direction: column;
   align-items: center;
