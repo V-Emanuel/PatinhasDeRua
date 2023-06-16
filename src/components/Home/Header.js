@@ -11,10 +11,6 @@ export const Header = styled.div`
   box-sizing: border-box;
   padding: 0px 35px 0px 20px;
   background-color: transparent;
-  span {
-    display: flex;
-    align-items: center;
-  }
 `;
 export const HeaderText = styled.h3`
   font-style: normal;

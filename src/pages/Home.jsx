@@ -1,7 +1,6 @@
 import { Section1, OngName } from "../components/Home/Section1";
 import { Header, HeaderText } from "../components/Home/Header";
 import { FaPaw } from "react-icons/fa";
-import { MdLocationOn } from "react-icons/md";
 import { HeaderIcons } from "../components/Home/Icons";
 export default function Home() {
   return (
@@ -13,10 +12,6 @@ export default function Home() {
           <HeaderText>Ações</HeaderText>
           <HeaderText>Como nos ajudar?</HeaderText>
           <HeaderText>Por que ajudar?</HeaderText>
-          <span>
-            <MdLocationOn style={HeaderIcons} />
-            <HeaderText>Campo Formoso - BA</HeaderText>
-          </span>
         </Header>
         <OngName>
           <h1>Patinhas de Rua</h1>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import dogBag from "../../assets/imgs/dogBag.jpg";
+import dogBag from "../../assets/imgs/BgImgs/dogBag.jpg";
 
 export const Section1 = styled.section`
   width: 100%;

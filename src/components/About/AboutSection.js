@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const AboutSection = styled.section`
   width: 100%;
-  height: 800px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: flex-start;

@@ -1,6 +1,8 @@
 import GlobalStyle from "./components/GLobalStyle";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Actions from "./pages/Actions";
+import HowToHelp from "./pages/HowToHelp";
 import { styled } from "styled-components";
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
       <Body>
         <Home />
         <About />
+        <Actions />
+        <HowToHelp />
       </Body>
     </>
   );
