@@ -1,23 +1,25 @@
 import { styled } from "styled-components";
 
 export const StartPostContent = styled.div`
-  width: 560px;
+  width: 510px;
   height: 100%;
-  border-top-right-radius: 60px;
-  border-bottom-right-radius: 60px;
-  background-color: #8ca38b;
-  padding: 50px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #f28a49;
+  padding: 55px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  h2,
+  position: absolute;
+  left: 0px;
   h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     line-height: 18px;
     color: #2c1913;
     line-height: normal;
-  }
-  h1 {
     font-family: "Teko";
     font-weight: 300;
     font-size: 50px;

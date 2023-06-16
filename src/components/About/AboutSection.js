@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 const AboutSection = styled.section`
   width: 100%;
-  height: 600px;
+  height: 800px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   background-color: #000;
   box-sizing: border-box;

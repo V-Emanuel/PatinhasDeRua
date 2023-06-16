@@ -11,7 +11,7 @@ export default function HowToHelp() {
         <MdPix style={HeaderIcons} /> 56301120582
       </h4>
       <h3>
-        Ou entrando em contato com e gente pelo no Instagram ou presencialmente
+        E entrando em contato com e gente pelo no Instagram ou presencialmente
         pelos endereços:
       </h3>
       {contacts.map((i) => (

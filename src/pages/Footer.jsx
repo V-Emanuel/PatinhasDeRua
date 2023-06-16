@@ -5,6 +5,13 @@ export default function Footer() {
     <>
       <FooterSection>
         <DogFooter src={footerDog}></DogFooter>
+        <span>
+          <p>
+            "Antes de ter amado um animal, parte da nossa alma permanece
+            desacordada"
+          </p>
+          <h5>- Anatole France</h5>
+        </span>
       </FooterSection>
     </>
   );
