@@ -2,7 +2,7 @@ import styled from "styled-components";
 import dogBag from "../../assets/imgs/dogBag.jpg";
 
 export const Section1 = styled.section`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,6 @@ export const Section1 = styled.section`
     ),
     linear-gradient(0deg, rgba(0, 0, 0, 0.7) 5%, rgba(0, 0, 0, 0) 15%),
     url(${dogBag});
-  /* ff 3.6+ */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -33,12 +32,12 @@ export const OngName = styled.div`
   h1,
   h2 {
     line-height: 18px;
-    font-weight: 400;
     color: #fff;
   }
   h1 {
     font-size: 5.2vw;
     font-family: "Emilys Candy";
+    font-weight: 400;
   }
   h2 {
     margin-top: 50px;
@@ -46,6 +45,7 @@ export const OngName = styled.div`
     font-family: "Roboto";
     line-height: normal;
     text-align: justify;
+    font-weight: 500;
     width: 600px;
   }
 `;

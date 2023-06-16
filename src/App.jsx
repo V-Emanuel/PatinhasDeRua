@@ -1,18 +1,26 @@
 import GlobalStyle from "./components/GLobalStyle";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import { styled } from "styled-components";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+      <Body>
+        <Home />
+        <About />
+      </Body>
     </>
   );
 }
 
 export default App;
+
+const Body = styled.body`
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;

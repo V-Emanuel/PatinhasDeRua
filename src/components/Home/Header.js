@@ -24,6 +24,7 @@ export const HeaderText = styled.h3`
   font-family: "Open Sans";
   font-weight: 800;
   padding: 4px;
+  box-sizing: border-box;
   border-radius: 5px;
   &:hover {
     cursor: pointer;

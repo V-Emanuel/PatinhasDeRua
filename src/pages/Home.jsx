@@ -3,8 +3,6 @@ import { Header, HeaderText } from "../components/Home/Header";
 import { FaPaw } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { HeaderIcons } from "../components/Home/Icons";
-
-import ItensSection from "../components/Home/ItensSection";
 export default function Home() {
   return (
     <>
@@ -14,6 +12,7 @@ export default function Home() {
           <HeaderText>Sobre</HeaderText>
           <HeaderText>Ações</HeaderText>
           <HeaderText>Como nos ajudar?</HeaderText>
+          <HeaderText>Por que ajudar?</HeaderText>
           <span>
             <MdLocationOn style={HeaderIcons} />
             <HeaderText>Campo Formoso - BA</HeaderText>
@@ -30,7 +29,6 @@ export default function Home() {
           </h2>
         </OngName>
       </Section1>
-      <ItensSection></ItensSection>
     </>
   );
 }
